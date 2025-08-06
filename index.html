@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apex AutoSure</title>
+    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+      }
+      .bg-primary {
+        background-color: #000000;
+      }
+      .text-gold {
+        color: #DDB167;
+      }
+      .bg-gold {
+        background-color: #DDB167;
+      }
+    </style>
+  </head>
+  <body class="bg-primary text-white">
+    <!-- Header -->
+    <header class="w-full py-6 shadow-md">
+      <div class="container mx-auto flex items-center justify-between px-4">
+        <div class="flex items-center space-x-3">
+          <img src="logo-removebg-preview.png" alt="Apex AutoSure Logo" class="h-12 w-auto" />
+          <h1 class="text-2xl font-bold text-gold">Apex AutoSure</h1>
+        </div>
+        <a href="#cotacao" class="bg-gold text-black font-bold py-2 px-6 rounded-full hover:opacity-90 transition">
+          Fale com nossos especialistas!
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative h-screen flex items-center justify-center text-center px-4" style="background-color: #000;">
+      <div class="absolute inset-0 opacity-10 bg-no-repeat bg-center bg-cover" style="background-image: url('logo-removebg-preview.png');"></div>
+      <div class="relative max-w-2xl mx-auto">
+        <h1 class="text-5xl md:text-6xl font-bold text-gold mb-6">
+          Seguro Automotivo Personalizado nos EUA
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-8">
+          Encontre a melhor cobertura com cotações gratuitas e personalizadas, em qualquer estado americano.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="#cotacao" class="bg-gold text-black font-bold py-4 px-8 rounded-full hover:opacity-90 transition text-lg">
+            Faça sua Cotação gratuitamente
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="bg-black py-16 px-4">
+      <div class="container mx-auto max-w-4xl text-center">
+        <h2 class="text-3xl font-bold text-gold mb-6">Quem Somos</h2>
+        <p class="text-gray-300 text-lg">
+          Na Apex AutoSure, oferecemos cotações gratuitas e personalizadas de seguro de automóvel para todos os estados dos EUA. Conectamos você às melhores seguradoras do mercado, garantindo o melhor custo‑benefício e segurança em cada quilômetro.
+        </p>
+      </div>
+    </section>
+
+    <!-- Processo Simples com Imagens -->
+    <section class="py-20 bg-black px-4">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gold mb-12">Contratar seu seguro nunca foi tão simples</h2>
+        <div class="grid md:grid-cols-3 gap-10 text-left text-gray-300">
+          <div class="flex flex-col items-center">
+            <img src="suporte.png" alt="Formulário" class="mb-4 w-20 h-20 object-contain" />
+            <h3 class="text-xl font-bold text-gold mb-2">1. Entre em contato</h3>
+            <p class="text-center">Perguntas rápidas e diretas com as necessidades do cliente.</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="plano.png" alt="Plano Ideal" class="mb-4 w-20 h-20 object-contain" />
+            <h3 class="text-xl font-bold text-gold mb-2">2. Receba o Plano Ideal</h3>
+            <p class="text-center">Opções personalizadas para segurança automotiva.</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="assinatura.png" alt="Cobertura Imediata" class="mb-4 w-20 h-20 object-contain" />
+            <h3 class="text-xl font-bold text-gold mb-2">3. Suporte Continuo</h3>
+            <p class="text-center">Agilidade e suporte em todas as etapas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compromisso com Imagem -->
+    <section class="py-16 bg-gray-900 px-4">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+        <img src="seguranca.png" alt="Confiança e segurança" class="rounded-lg shadow-lg" />
+        <div class="text-center md:text-left">
+          <h2 class="text-3xl font-bold text-gold mb-6">Nosso compromisso com a sua segurança</h2>
+          <p class="text-gray-300 text-lg">
+            Oferecemos segurança, confiança e proteção personalizada a cada cliente. Com a Apex AutoSure, você está amparado em todas as situações do dia a dia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos com Imagens -->
+    <section class="py-20 bg-black px-4">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gold mb-12">Depoimentos reais de clientes satisfeitos</h2>
+        <div class="grid md:grid-cols-2 gap-8 text-left">
+          <div class="bg-gray-800 p-6 rounded-lg shadow flex items-start gap-4">
+            <img src="cliente1.jpeg" alt="João M." class="w-16 h-16 rounded-full object-cover">
+            <div>
+              <p class="text-gray-300 italic">“Fui atendido rapidamente e encontrei um seguro com o melhor preço que já tive. Recomendo muito!”</p>
+              <p class="text-gold font-bold mt-4">— João M., Texas</p>
+            </div>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg shadow flex items-start gap-4">
+            <img src="cliente2.jpeg" alt="Carla R." class="w-16 h-16 rounded-full object-cover">
+            <div>
+              <p class="text-gray-300 italic">“A equipe da Apex foi super atenciosa e me explicou tudo com clareza. Hoje me sinto muito mais seguro.”</p>
+              <p class="text-gold font-bold mt-4">— Carla R., Flórida</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Suporte / Contato -->
+    <section id="cotacao" class="py-20 px-4 bg-gray-900">
+      <div class="max-w-2xl mx-auto bg-black rounded-lg p-10 shadow-lg text-center">
+        <img src="suporte.png" alt="Equipe de Suporte" class="mx-auto mb-6 w-32 h-32 object-contain">
+        <h2 class="text-3xl font-bold text-gold mb-4">Fale com nossos especialistas</h2>
+        <p class="text-gray-300 text-lg mb-6">
+          Nosso time está pronto para ajudar você a encontrar o seguro ideal para seu veículo.
+        </p>
+        <div class="text-gray-300 mb-8 space-y-3">
+          <p><strong>Telefone:</strong> <a href="tel:+14387937894" class="text-gold hover:underline">+1 (438) 793‑7894</a></p>
+          <p><strong>E-mail:</strong> <a href="mailto:apexautosure@gmail.com" class="text-gold hover:underline">apexautosure@gmail.com</a></p>
+        </div>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="https://wa.me/14387937894" target="_blank" class="bg-green-500 text-white font-bold py-3 px-8 rounded-full hover:opacity-90 transition">
+            Falar pelo WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-black text-center py-8 text-gray-500 text-sm">
+    &copy; 2025 Apex AutoSure. Todos os direitos reservados. <br>
+    <span class="text-gray-600">Made with ☕ for <a href="https://aindanãotenhoportfolio.com" class="underline hover:text-white">Diórger B.</a></span>
+    </footer>
+
+  </body>
+</html>
